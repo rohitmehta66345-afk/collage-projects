@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Food Menu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.CSS">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <section class = "menu">
+      <div class = "menu-container">
+        <div class = "menu-head">
+          <h2>Food Menu</h2>
+        </div>
+
+        <div class = "menu-btns">
+          <button type = "button" class = "menu-btn active-btn" id = "featured">breakfast/lunch/dinner</button>
+          <button type = "button" class = "menu-btn" id = "today-special">snacks</button>
+          <button type = "button" class = "menu-btn active-btn" id = "container px-5 py-24 mx-auto">Order</button>
+        </div>
+
+        <div class = "food-items">
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/banana-bread-with-butter-and-milk.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Banana Bread With Butter & Milk</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs75.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/barbecue%20(1).jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Barbecue</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs80.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/bread-with-seeds-and-butter.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Bread With Seeds & Butter</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs75.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/breakfast-sandwich-with-hummus-spread-and-fresh-vegetables.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Breadfast Sandwich</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs60.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/chicken-breast-steaks-with-beetroot.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chicken Breast Steaks</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs400.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/chicken-legs-with-tomatoes-peppers-and-oranges.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chicken Legs</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs350.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/french-fries-with-steak-and-beer.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">French Fries</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs90.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/fried-rice-with-shrimps.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Fried Rice</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs110.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/noodles-with-egg-and-vegetables.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Noodles</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs150.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/pizza-with-a-lot-of-cheese.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cheese Pizza</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs200.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/tacos-with-pulled-pork-fresh-vegetables-and-cream.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Tacos with pulled pork</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs135.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+          
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "file:///D:/123456/tiny-pickles-on-top-of-burger.jpg" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">tiny pickles</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">rs85.00</h3>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">breakfasr/lunch/dinner Order</h1>
+    </div>
+    <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+      <table class="table-auto w-full text-left whitespace-no-wrap">
+        <thead>
+          <tr>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">ITEM</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">half</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">full</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="px-4 py-3">banana bread with butter $  milk</td>
+            <td class="px-4 py-3">--</td>
+            <td class="px-4 py-3">75.00 RS</td>
+            <td class="w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+          <tr>
+            <td class="border-t-2 border-gray-200 px-4 py-3">chicken breast streaks </td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">220 RS</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">400 RS</td>
+            <td class="border-t-2 border-gray-200 w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+          <tr>
+            <td class="border-t-2 border-gray-200 px-4 py-3">Business</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">36 Mb/s</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">40 GB</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$50</td>
+            <td class="border-t-2 border-gray-200 w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+          <tr>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Exclusive</td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">48 Mb/s</td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">120 GB</td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$72</td>
+            <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+  </div>
+</section>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">snacks</h1>
+    <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+      <table class="table-auto w-full text-left whitespace-no-wrap">
+        <thead>
+          <tr>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">ITEM</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">half</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">full</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="px-4 py-3">Start</td>
+            <td class="px-4 py-3">5 Mb/s</td>
+            <td class="px-4 py-3">15 GB</td>
+            <td class="px-4 py-3 text-lg text-gray-900">Free</td>
+            <td class="w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+          <tr>
+            <td class="border-t-2 border-gray-200 px-4 py-3">Pro</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">25 Mb/s</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">25 GB</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$24</td>
+            <td class="border-t-2 border-gray-200 w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+          <tr>
+            <td class="border-t-2 border-gray-200 px-4 py-3">Business</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">36 Mb/s</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3">40 GB</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$50</td>
+            <td class="border-t-2 border-gray-200 w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+          <tr>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Exclusive</td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">48 Mb/s</td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">120 GB</td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$72</td>
+            <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+  </div>
+</section>
+
+    <section class="text-gray-600 body-font relative">
+      <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+          <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+           
+            <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+              <a class="text-indigo-500 leading-relaxed">Rohitmehta66345@email.com</a>
+              <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+              <p class="leading-relaxed">96500*****</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+          
+          <div class="relative mb-4">
+            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+            <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+            <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+            <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+          <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
